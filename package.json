@@ -1,0 +1,28 @@
+{
+  "name": "websql-sqlite3",
+  "version": "1.0.0",
+  "description": "WebSQL emulator.",
+  "keywords": [
+    "websql",
+    "sqlite3",
+    "emulator"
+  ],
+  "homepage": "https://github.com/souzamonteiro/websql-sqlite3#readme",
+  "bugs": {
+    "url": "https://github.com/souzamonteiro/websql-sqlite3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souzamonteiro/websql-sqlite3.git"
+  },
+  "license": "MIT",
+  "author": "Roberto Luiz Souza Monteiro",
+  "type": "commonjs",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
